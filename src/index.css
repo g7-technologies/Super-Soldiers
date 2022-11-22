@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  background: #1f1e10;
+  font-family: "Palanquin", sans-serif;
+}
+header {
+  min-height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+}
+main {
+  margin: 0;
+  padding: 0;
+}
+footer {
+  padding: 15px;
+  text-align: center;
+  background: #576a37;
+  font-family: "Play", sans-serif;
+}
+h2 {
+  font-size: 41px;
+  text-align: center;
+  margin: 50px 0;
+}
+
+@media (max-width: 450px) {
+  h2 {
+    font-size: 30px;
+  }
+}
